@@ -40,7 +40,8 @@ private extension OSlideQuestionView {
         NSLayoutConstraint.activate([
             questionLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
             questionLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
-            questionLabel.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 321.scale : 240.scale)
+            questionLabel.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 321.scale : 240.scale),
+            questionLabel.heightAnchor.constraint(equalToConstant: 200.scale)
         ])
         
         NSLayoutConstraint.activate([
