@@ -125,7 +125,7 @@ private extension OSlide15View {
             .textAlignment(.center)
         
         let view = UIButton()
-        view.backgroundColor = UIColor(integralRed: 95, green: 70, blue: 245)
+        view.backgroundColor = UIColor(integralRed: 198, green: 54, blue: 136)
         view.layer.cornerRadius = 30.scale
         view.setAttributedTitle("Onboarding.Slide15.Button".localized.attributed(with: attrs), for: .normal)
         view.addTarget(self, action: #selector(onNext), for: .touchUpInside)

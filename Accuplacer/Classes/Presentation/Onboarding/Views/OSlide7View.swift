@@ -47,7 +47,7 @@ extension OSlide7View: UIPickerViewDelegate {
         }
         
         let attrs = TextAttributes()
-            .textColor(UIColor(integralRed: 95, green: 70, blue: 245))
+            .textColor(UIColor(integralRed: 198, green: 54, blue: 136))
             .font(Fonts.SFProRounded.bold(size: 27.scale))
             .lineHeight(32.scale)
         
@@ -127,7 +127,7 @@ private extension OSlide7View {
     
     func makeMinLabel() -> UILabel {
         let attrs = TextAttributes()
-            .textColor(UIColor(integralRed: 95, green: 70, blue: 245))
+            .textColor(UIColor(integralRed: 198, green: 54, blue: 136))
             .font(Fonts.SFProRounded.semiBold(size: 20.scale))
         
         let view = UILabel()
@@ -145,7 +145,7 @@ private extension OSlide7View {
             .textAlignment(.center)
         
         let view = UIButton()
-        view.backgroundColor = UIColor(integralRed: 95, green: 70, blue: 245)
+        view.backgroundColor = UIColor(integralRed: 198, green: 54, blue: 136)
         view.layer.cornerRadius = 30.scale
         view.setAttributedTitle("Onboarding.Proceed".localized.attributed(with: attrs), for: .normal)
         view.addTarget(self, action: #selector(onNext), for: .touchUpInside)

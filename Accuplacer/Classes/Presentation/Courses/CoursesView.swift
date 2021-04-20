@@ -27,7 +27,7 @@ final class CoursesView: UIView {
 // MARK: Private
 private extension CoursesView {
     func initialize() {
-        backgroundColor = UIColor(integralRed: 242, green: 245, blue: 252)
+        backgroundColor = UIColor(integralRed: 255, green: 250, blue: 253)
     }
 }
 
@@ -93,7 +93,7 @@ private extension CoursesView {
             .textAlignment(.center)
         
         let view = UIButton()
-        view.backgroundColor = UIColor(integralRed: 95, green: 70, blue: 245)
+        view.backgroundColor = UIColor(integralRed: 198, green: 54, blue: 136)
         view.layer.cornerRadius = 30.scale
         view.setAttributedTitle("Courses.Button".localized.attributed(with: attrs), for: .normal)
         view.translatesAutoresizingMaskIntoConstraints = false

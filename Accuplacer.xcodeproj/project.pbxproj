@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		96B50516262E11AE00786C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B50515262E11AE00786C14 /* Assets.xcassets */; };
+		96C0B55B262EC5DE00967285 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 96C0B55A262EC5DE00967285 /* Onboarding.Chart.json */; };
 		96D482E8262E160100BF9F7C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96D482E7262E160100BF9F7C /* Localizable.strings */; };
 		96D482F1262E175E00BF9F7C /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96D482EE262E175E00BF9F7C /* SF-Pro-Rounded-Semibold.otf */; };
 		96D482F2262E175E00BF9F7C /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96D482EF262E175E00BF9F7C /* SF-Pro-Rounded-Regular.otf */; };
@@ -193,7 +194,6 @@
 		96D484BB262E176E00BF9F7C /* OSlide8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483EE262E176E00BF9F7C /* OSlide8View.swift */; };
 		96D484BC262E176E00BF9F7C /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F0262E176E00BF9F7C /* OProgressView.swift */; };
 		96D484BD262E176E00BF9F7C /* OSlide15Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F1262E176E00BF9F7C /* OSlide15Cell.swift */; };
-		96D484BE262E176E00BF9F7C /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 96D483F3262E176E00BF9F7C /* Onboarding.Chart.json */; };
 		96D484BF262E176E00BF9F7C /* ODatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F4262E176E00BF9F7C /* ODatePicker.swift */; };
 		96D484C0262E176E00BF9F7C /* OSlide4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F5262E176E00BF9F7C /* OSlide4Cell.swift */; };
 		96D484C1262E176E00BF9F7C /* OSlide9TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F6262E176E00BF9F7C /* OSlide9TagView.swift */; };
@@ -214,6 +214,7 @@
 		96D484D0262E176E00BF9F7C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D48405262E176E00BF9F7C /* OnboardingView.swift */; };
 		96D484D1262E176E00BF9F7C /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D48406262E176E00BF9F7C /* OnboardingViewModel.swift */; };
 		96D484D2262E176E00BF9F7C /* OnboardingAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D48408262E176E00BF9F7C /* OnboardingAnalytics.swift */; };
+		96D484D8262E71D000BF9F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D484D7262E71D000BF9F7C /* LaunchScreen.storyboard */; };
 		EFACF1FEE647DFBC2570CED0 /* Pods_Accuplacer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4964D2085216250B3393165 /* Pods_Accuplacer.framework */; };
 /* End PBXBuildFile section */
 
@@ -222,6 +223,7 @@
 		96B50509262E11AC00786C14 /* Accuplacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accuplacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B50515262E11AE00786C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B5051A262E11AE00786C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C0B55A262EC5DE00967285 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		96D482E7262E160100BF9F7C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		96D482EC262E164D00BF9F7C /* Accuplacer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accuplacer-Bridging-Header.h"; sourceTree = "<group>"; };
 		96D482EE262E175E00BF9F7C /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
@@ -408,7 +410,6 @@
 		96D483EE262E176E00BF9F7C /* OSlide8View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide8View.swift; sourceTree = "<group>"; };
 		96D483F0262E176E00BF9F7C /* OProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OProgressView.swift; sourceTree = "<group>"; };
 		96D483F1262E176E00BF9F7C /* OSlide15Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide15Cell.swift; sourceTree = "<group>"; };
-		96D483F3262E176E00BF9F7C /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		96D483F4262E176E00BF9F7C /* ODatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODatePicker.swift; sourceTree = "<group>"; };
 		96D483F5262E176E00BF9F7C /* OSlide4Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide4Cell.swift; sourceTree = "<group>"; };
 		96D483F6262E176E00BF9F7C /* OSlide9TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide9TagView.swift; sourceTree = "<group>"; };
@@ -429,6 +430,7 @@
 		96D48405262E176E00BF9F7C /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		96D48406262E176E00BF9F7C /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		96D48408262E176E00BF9F7C /* OnboardingAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingAnalytics.swift; sourceTree = "<group>"; };
+		96D484D7262E71D000BF9F7C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD06BD777BBE5DFBBFBDE4BF /* Pods-Accuplacer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accuplacer.release.xcconfig"; path = "Target Support Files/Pods-Accuplacer/Pods-Accuplacer.release.xcconfig"; sourceTree = "<group>"; };
 		F4964D2085216250B3393165 /* Pods_Accuplacer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accuplacer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -487,6 +489,7 @@
 				96D482E5262E15EF00BF9F7C /* Strings */,
 				96B5051A262E11AE00786C14 /* Info.plist */,
 				96B50515262E11AE00786C14 /* Assets.xcassets */,
+				96D484D7262E71D000BF9F7C /* LaunchScreen.storyboard */,
 				96D482EC262E164D00BF9F7C /* Accuplacer-Bridging-Header.h */,
 			);
 			path = Resource;
@@ -1298,7 +1301,7 @@
 		96D483F2262E176E00BF9F7C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				96D483F3262E176E00BF9F7C /* Onboarding.Chart.json */,
+				96C0B55A262EC5DE00967285 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -1379,10 +1382,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D484BE262E176E00BF9F7C /* Onboarding.Chart.json in Resources */,
+				96C0B55B262EC5DE00967285 /* Onboarding.Chart.json in Resources */,
 				96B50516262E11AE00786C14 /* Assets.xcassets in Resources */,
 				96D482F2262E175E00BF9F7C /* SF-Pro-Rounded-Regular.otf in Resources */,
 				96D482F1262E175E00BF9F7C /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				96D484D8262E71D000BF9F7C /* LaunchScreen.storyboard in Resources */,
 				96D482E8262E160100BF9F7C /* Localizable.strings in Resources */,
 				96D482F3262E175E00BF9F7C /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -1775,6 +1779,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.accuplacer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Accuplacer Development";
@@ -1799,6 +1804,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.accuplacer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Accuplacer AppStore";

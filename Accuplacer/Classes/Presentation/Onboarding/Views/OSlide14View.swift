@@ -46,16 +46,10 @@ private extension OSlide14View {
             }
             self?.percentLabel.text = "\(percent) %"
             
-            if percent <= 20 {
+            if percent <= 50 {
                 self?.analyzeLabel.text = "Onboarding.Slide14.Preloader1".localized
-            } else if percent <= 40 {
-                self?.analyzeLabel.text = "Onboarding.Slide14.Preloader2".localized
-            } else if percent <= 60 {
-                self?.analyzeLabel.text = "Onboarding.Slide14.Preloader3".localized
-            } else if percent <= 80 {
-                self?.analyzeLabel.text = "Onboarding.Slide14.Preloader4".localized
             } else {
-                self?.analyzeLabel.text = "Onboarding.Slide14.Preloader5".localized
+                self?.analyzeLabel.text = "Onboarding.Slide14.Preloader2".localized
             }
             
             if seconds >= duration {

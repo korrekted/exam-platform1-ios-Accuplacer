@@ -79,7 +79,7 @@ private extension AnswerView {
             iconView.image = nil
         case .selected:
             layer.borderWidth = 3.scale
-            layer.borderColor = UIColor(integralRed: 95, green: 70, blue: 245).cgColor
+            layer.borderColor = UIColor(integralRed: 198, green: 54, blue: 136).cgColor
             backgroundColor = .white
             iconView.image = nil
         case .correct:
