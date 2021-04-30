@@ -9,7 +9,7 @@ import UIKit
 
 final class OnboardingView: UIView {
     enum Step: Int {
-        case slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide10, slide11, slide12, slide13, slide14, slide15
+        case slide1, slide4, slide5, slide6, slide7, slide8, slide9, slide10, slide11, slide12, slide13, slide14, slide15
     }
     
     var didFinish: (() -> Void)?
@@ -26,8 +26,6 @@ final class OnboardingView: UIView {
     private lazy var contentViews: [OSlideView] = {
         [
             OSlide1View(step: .slide1),
-            OSlide2View(step: .slide2),
-            OSlide3View(step: .slide3),
             OSlide4View(step: .slide4),
             OSlide5View(step: .slide5),
             OSlide6View(step: .slide6),

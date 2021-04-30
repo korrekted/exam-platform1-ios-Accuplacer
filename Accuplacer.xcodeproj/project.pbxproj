@@ -199,14 +199,11 @@
 		96D484C1262E176E00BF9F7C /* OSlide9TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F6262E176E00BF9F7C /* OSlide9TagView.swift */; };
 		96D484C2262E176E00BF9F7C /* OSlideQuestiionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F7262E176E00BF9F7C /* OSlideQuestiionButton.swift */; };
 		96D484C3262E176E00BF9F7C /* OSlide6Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F8262E176E00BF9F7C /* OSlide6Cell.swift */; };
-		96D484C4262E176E00BF9F7C /* OSlide2GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483F9262E176E00BF9F7C /* OSlide2GenderView.swift */; };
-		96D484C5262E176E00BF9F7C /* OSlide3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483FA262E176E00BF9F7C /* OSlide3View.swift */; };
 		96D484C6262E176E00BF9F7C /* OSlide14View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483FB262E176E00BF9F7C /* OSlide14View.swift */; };
 		96D484C7262E176E00BF9F7C /* OSlide4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483FC262E176E00BF9F7C /* OSlide4View.swift */; };
 		96D484C8262E176E00BF9F7C /* OSlide9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483FD262E176E00BF9F7C /* OSlide9View.swift */; };
 		96D484C9262E176E00BF9F7C /* OSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483FE262E176E00BF9F7C /* OSlideView.swift */; };
 		96D484CA262E176E00BF9F7C /* OSlideQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D483FF262E176E00BF9F7C /* OSlideQuestionView.swift */; };
-		96D484CB262E176E00BF9F7C /* OSlide2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D48400262E176E00BF9F7C /* OSlide2View.swift */; };
 		96D484CC262E176E00BF9F7C /* OSlide15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D48401262E176E00BF9F7C /* OSlide15View.swift */; };
 		96D484CD262E176E00BF9F7C /* OSlide7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D48402262E176E00BF9F7C /* OSlide7View.swift */; };
 		96D484CE262E176E00BF9F7C /* OSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D48403262E176E00BF9F7C /* OSlide1View.swift */; };
@@ -415,14 +412,11 @@
 		96D483F6262E176E00BF9F7C /* OSlide9TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide9TagView.swift; sourceTree = "<group>"; };
 		96D483F7262E176E00BF9F7C /* OSlideQuestiionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlideQuestiionButton.swift; sourceTree = "<group>"; };
 		96D483F8262E176E00BF9F7C /* OSlide6Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide6Cell.swift; sourceTree = "<group>"; };
-		96D483F9262E176E00BF9F7C /* OSlide2GenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide2GenderView.swift; sourceTree = "<group>"; };
-		96D483FA262E176E00BF9F7C /* OSlide3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide3View.swift; sourceTree = "<group>"; };
 		96D483FB262E176E00BF9F7C /* OSlide14View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide14View.swift; sourceTree = "<group>"; };
 		96D483FC262E176E00BF9F7C /* OSlide4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide4View.swift; sourceTree = "<group>"; };
 		96D483FD262E176E00BF9F7C /* OSlide9View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide9View.swift; sourceTree = "<group>"; };
 		96D483FE262E176E00BF9F7C /* OSlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlideView.swift; sourceTree = "<group>"; };
 		96D483FF262E176E00BF9F7C /* OSlideQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlideQuestionView.swift; sourceTree = "<group>"; };
-		96D48400262E176E00BF9F7C /* OSlide2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide2View.swift; sourceTree = "<group>"; };
 		96D48401262E176E00BF9F7C /* OSlide15View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide15View.swift; sourceTree = "<group>"; };
 		96D48402262E176E00BF9F7C /* OSlide7View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide7View.swift; sourceTree = "<group>"; };
 		96D48403262E176E00BF9F7C /* OSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide1View.swift; sourceTree = "<group>"; };
@@ -1267,13 +1261,11 @@
 				96D483ED262E176E00BF9F7C /* OSlide5View.swift */,
 				96D483EE262E176E00BF9F7C /* OSlide8View.swift */,
 				96D483EF262E176E00BF9F7C /* Atoms */,
-				96D483FA262E176E00BF9F7C /* OSlide3View.swift */,
 				96D483FB262E176E00BF9F7C /* OSlide14View.swift */,
 				96D483FC262E176E00BF9F7C /* OSlide4View.swift */,
 				96D483FD262E176E00BF9F7C /* OSlide9View.swift */,
 				96D483FE262E176E00BF9F7C /* OSlideView.swift */,
 				96D483FF262E176E00BF9F7C /* OSlideQuestionView.swift */,
-				96D48400262E176E00BF9F7C /* OSlide2View.swift */,
 				96D48401262E176E00BF9F7C /* OSlide15View.swift */,
 				96D48402262E176E00BF9F7C /* OSlide7View.swift */,
 				96D48403262E176E00BF9F7C /* OSlide1View.swift */,
@@ -1293,7 +1285,6 @@
 				96D483F6262E176E00BF9F7C /* OSlide9TagView.swift */,
 				96D483F7262E176E00BF9F7C /* OSlideQuestiionButton.swift */,
 				96D483F8262E176E00BF9F7C /* OSlide6Cell.swift */,
-				96D483F9262E176E00BF9F7C /* OSlide2GenderView.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -1443,7 +1434,6 @@
 			files = (
 				96D4848B262E176E00BF9F7C /* AVPlayerView.swift in Sources */,
 				96D484C7262E176E00BF9F7C /* OSlide4View.swift in Sources */,
-				96D484C5262E176E00BF9F7C /* OSlide3View.swift in Sources */,
 				96D4847D262E176E00BF9F7C /* QuestionsCollectionView.swift in Sources */,
 				96D484A8262E176E00BF9F7C /* CoursesCollectionView.swift in Sources */,
 				96D48429262E176E00BF9F7C /* PaygateOption.swift in Sources */,
@@ -1517,7 +1507,6 @@
 				96D48499262E176E00BF9F7C /* TestStatsProgressElement.swift in Sources */,
 				96D484AF262E176E00BF9F7C /* StatsView.swift in Sources */,
 				96D484A5262E176E00BF9F7C /* CoursesViewModel.swift in Sources */,
-				96D484CB262E176E00BF9F7C /* OSlide2View.swift in Sources */,
 				96D4847E262E176E00BF9F7C /* QuestionViewCell.swift in Sources */,
 				96D484B4262E176E00BF9F7C /* MainStatsDescriptionLineView.swift in Sources */,
 				96D4848A262E176E00BF9F7C /* AnswerView.swift in Sources */,
@@ -1629,7 +1618,6 @@
 				96D484B6262E176E00BF9F7C /* CourseProgressView.swift in Sources */,
 				96D4843C262E176E00BF9F7C /* SendAnswerResponseMapper.swift in Sources */,
 				96D4840F262E176E00BF9F7C /* GlobalDefinitions.swift in Sources */,
-				96D484C4262E176E00BF9F7C /* OSlide2GenderView.swift in Sources */,
 				96D484CA262E176E00BF9F7C /* OSlideQuestionView.swift in Sources */,
 				96D4842D262E176E00BF9F7C /* PaygateMainOffer.swift in Sources */,
 				96D48427262E176E00BF9F7C /* PaygateMapper.swift in Sources */,
@@ -1772,7 +1760,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = Accuplacer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1780,7 +1768,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.accuplacer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Accuplacer Development";
@@ -1798,7 +1786,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = Accuplacer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1806,7 +1794,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.accuplacer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Accuplacer AppStore";
