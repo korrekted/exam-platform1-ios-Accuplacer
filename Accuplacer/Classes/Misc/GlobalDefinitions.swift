@@ -19,7 +19,7 @@ final class GlobalDefinitions {
 
     static let appleAppID = "1563741227"
 
-    static let termsOfServiceUrl = "https://docs.google.com/document/d/1-W9vqg-sno9DcYcDo-XhT26TMhYE1mOU6OivK2IhI7M/edit"
-    static let privacyPolicyUrl = "https://docs.google.com/document/d/1GCIelmdgxFi7_dLgg0O_RzfHZB3PMYlczk9gekCRlIE/edit"
-    static let contactUsUrl = "https://docs.google.com/document/d/1t8lYyy4pGkW4ugSPXExYqfRDPaMneXZ5h7XhTCdfxi8/edit"
+    static let termsOfServiceUrl = "https://bit.ly/exam-terms"
+    static let privacyPolicyUrl = "https://bit.ly/exam-policy"
+    static let contactUsUrl = "https://bit.ly/exam-contact"
 }
