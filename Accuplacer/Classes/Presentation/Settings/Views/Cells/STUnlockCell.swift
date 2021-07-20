@@ -71,7 +71,7 @@ private extension STUnlockCell {
 private extension STUnlockCell {
     func makeContainer() -> UIView {
         let view = UIView()
-        view.backgroundColor = UIColor(integralRed: 198, green: 54, blue: 136)
+        view.backgroundColor = Appearance.mainColor
         view.layer.cornerRadius = 15.scale
         view.layer.masksToBounds = true
         view.translatesAutoresizingMaskIntoConstraints = false

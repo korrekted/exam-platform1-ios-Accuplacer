@@ -19,7 +19,7 @@ final class GlobalDefinitions {
 
     static let appleAppID = "1563741227"
 
-    static let termsOfServiceUrl = "https://bit.ly/exam-terms"
-    static let privacyPolicyUrl = "https://bit.ly/exam-policy"
-    static let contactUsUrl = "https://bit.ly/exam-contact"
+    static let termsOfServiceUrl = "https://quantresear.ch/terms.html"
+    static let privacyPolicyUrl = "https://quantresear.ch/policy.html"
+    static let contactUsUrl = "https://quantresear.ch/contact.html"
 }

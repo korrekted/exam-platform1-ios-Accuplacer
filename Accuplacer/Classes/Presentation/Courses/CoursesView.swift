@@ -27,7 +27,7 @@ final class CoursesView: UIView {
 // MARK: Private
 private extension CoursesView {
     func initialize() {
-        backgroundColor = UIColor(integralRed: 255, green: 250, blue: 253)
+        backgroundColor = Appearance.backgroundColor
     }
 }
 
@@ -63,6 +63,7 @@ private extension CoursesView {
             .textColor(UIColor.black)
             .font(Fonts.SFProRounded.bold(size: 34.scale))
             .lineHeight(40.scale)
+            .textAlignment(.center)
         
         let view = UILabel()
         view.numberOfLines = 0
@@ -93,7 +94,7 @@ private extension CoursesView {
             .textAlignment(.center)
         
         let view = UIButton()
-        view.backgroundColor = UIColor(integralRed: 198, green: 54, blue: 136)
+        view.backgroundColor = Appearance.mainColor
         view.layer.cornerRadius = 30.scale
         view.setAttributedTitle("Courses.Button".localized.attributed(with: attrs), for: .normal)
         view.translatesAutoresizingMaskIntoConstraints = false

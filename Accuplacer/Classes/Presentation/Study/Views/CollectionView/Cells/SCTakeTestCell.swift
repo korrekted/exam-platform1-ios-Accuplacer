@@ -31,7 +31,7 @@ extension SCTakeTestCell {
         let text = activeSubscription ? "Study.TakeTest".localized : "Study.TakeFreeTest".localized
         button.setAttributedTitle(text.attributed(with: attrs), for: .normal)
         
-        button.backgroundColor = activeSubscription ? UIColor(integralRed: 198, green: 54, blue: 136) : UIColor(integralRed: 120, green: 55, blue: 244)
+        button.backgroundColor = activeSubscription ? Appearance.mainColor : Appearance.takeFreeTestColor
     }
 }
 

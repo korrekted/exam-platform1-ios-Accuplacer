@@ -34,7 +34,7 @@ extension MainStatsDescriptionLineView {
         let valueAttributes = TextAttributes()
             .font(Fonts.SFProRounded.bold(size: 17.scale))
             .lineHeight(20.scale)
-            .textColor(UIColor(integralRed: 198, green: 54, blue: 136))
+            .textColor(Appearance.mainColor)
             .textAlignment(.right)
         
         titleLabel.attributedText = title.attributed(with: titleAttributes)

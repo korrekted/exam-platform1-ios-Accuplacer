@@ -76,7 +76,7 @@ private extension TabView {
     func makeItem(image: String, title: String) -> TabItemView {
         let attrs = TextAttributes()
             .font(Fonts.SFProRounded.regular(size: 10.scale))
-            .textColor(UIColor(integralRed: 198, green: 54, blue: 136))
+            .textColor(Appearance.mainColor)
             .letterSpacing(-0.24.scale)
             .lineHeight(11.93.scale)
             .textAlignment(.center)
