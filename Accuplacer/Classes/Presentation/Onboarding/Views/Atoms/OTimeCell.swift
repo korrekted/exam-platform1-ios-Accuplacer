@@ -32,7 +32,7 @@ final class OTimeCell: UIView {
     var subtitle: String = "" {
         didSet {
             let attrs = TextAttributes()
-                .textColor(Appearance.progress1Color)
+                .textColor(UIColor.black)
                 .font(Fonts.SFProRounded.regular(size: 15.scale))
                 .lineHeight(21.scale)
             subtitleLabel.attributedText = subtitle.attributed(with: attrs)
