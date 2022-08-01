@@ -163,7 +163,7 @@ private extension OSlideImproveView {
         
         let view = UIButton()
         view.backgroundColor = Appearance.mainColor
-        view.layer.cornerRadius = 30.scale
+        view.layer.cornerRadius = 16.scale
         view.setAttributedTitle("Onboarding.Proceed".localized.attributed(with: attrs), for: .normal)
         view.addTarget(self, action: #selector(onNext), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
