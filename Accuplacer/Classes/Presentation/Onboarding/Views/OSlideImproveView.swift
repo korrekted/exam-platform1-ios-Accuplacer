@@ -32,8 +32,7 @@ final class OSlideImproveView: OSlideView {
     override func moveToThis() {
         super.moveToThis()
         
-        SDKStorage.shared
-            .amplitudeManager
+        AmplitudeManager.shared
             .logEvent(name: "Improve Screen", parameters: [:])
     }
 }
@@ -128,7 +127,7 @@ private extension OSlideImproveView {
 private extension OSlideImproveView {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
-            .textColor(UIColor(integralRed: 19, green: 24, blue: 42))
+            .textColor(Appearance.blackColor)
             .font(Fonts.SFProRounded.bold(size: 25.scale))
             .lineHeight(29.scale)
             .textAlignment(.center)
@@ -163,7 +162,7 @@ private extension OSlideImproveView {
         
         let view = UIButton()
         view.backgroundColor = Appearance.mainColor
-        view.layer.cornerRadius = 16.scale
+        view.layer.cornerRadius = 30.scale
         view.setAttributedTitle("Onboarding.Proceed".localized.attributed(with: attrs), for: .normal)
         view.addTarget(self, action: #selector(onNext), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
